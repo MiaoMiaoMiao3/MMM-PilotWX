@@ -39,7 +39,7 @@ Module.register('MMM-PilotWX', {
 
     // Set locale.
     ;(this.url =
-      'https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&stationString=' +
+      'https://aviationweather.gov/api/data/dataserver?dataSource=metars&requestType=retrieve&format=xml&stationString=' +
       this.config.ICAO +
       '&hoursBeforeNow=1'),
       (this.url =
